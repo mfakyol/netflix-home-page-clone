@@ -1,0 +1,90 @@
+.our-story-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.our-story-header-wrapper {
+  height: 5rem;
+  padding-top: 20px;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+.our-story-header {
+  height: 100%;
+  margin: 0 3.5rem;
+}
+
+.svg-icon-netflix-logo {
+  padding-top: 0.5rem;
+  height: 45px;
+  width: 167px;
+  fill: #e50914;
+}
+
+.auth-link {
+  float: right;
+  color: #fff;
+  border-radius: 3px;
+  margin-top: 0.5rem;
+  padding: 7px 17px;
+  background-color: #e50914;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.our-story-cards {
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1449px) {
+  .our-story-header-wrapper {
+    height: 4rem;
+
+  }
+
+  .svg-icon-netflix-logo {
+    height: 36px;
+    width: 134px;
+  }
+}
+
+@media only screen and (max-width: 949px) {
+  .our-story-header {
+    margin: 0 45px;
+  }
+
+  .svg-icon-netflix-logo {
+    height: 32px;
+    width: 108px;
+  }
+}
+
+@media only screen and (max-width: 549px) {
+  .our-story-header-wrapper {
+    height: 45px;
+
+  }
+  .our-story-header {
+    height: 100%;
+    margin: 0 5%;
+  }
+
+
+  .svg-icon-netflix-logo {
+    height: 24px;
+    width: 30%;
+  }
+
+  .auth-link {
+    float: right;
+    color: #fff;
+    border-radius: 3px;
+    margin-top: 0.35rem;
+    padding: 0.25rem 0.5rem;
+    background-color: #e50914;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+}
+
