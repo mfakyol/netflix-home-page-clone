@@ -1,4 +1,23 @@
 {
     "name": "tr1",
-    "login": "Oturum Aç"
+    "login": "Oturum Aç",
+    "tv": {
+        "h1": "Televizyonunuzda izleyebilirsiniz.",
+        "h2": "Akıllı TV, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray oynatıcılar ve daha fazlasında seyredin.",
+        "image": "tv.png",
+        "video": "video-tv.m4v"  
+    },
+    "mobile": {
+        "h1": "Çevrimdışı izlemek için içerikleri indirin.",
+        "h2": "En sevdiğiniz içerikleri kolayca kaydedin ve her zaman izleyecek bir şeyleriniz olsun.",
+        "image": "mobile.jpg",
+        "inlineImage": "mobile-inline-image.png",
+        "downloadText": "İndiriliyor..."
+    },
+    "all": {
+        "h1": "İstediğiniz her yerde izleyin.",
+        "h2": "Ekstra ücret ödemeden telefonda, tablette, bilgisayarda, televizyonda sınırsız film ve dizi izleyin.",
+        "image": "all.png",
+        "video": "video-all.m4v"  
+    }
 }

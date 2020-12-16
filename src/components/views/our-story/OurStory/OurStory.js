@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import OurStoryHeros from "../OurStoryHeros/OurStoryHeros";
+import OurStoryMobile from "../OurStoryMobile/OurStoryMobile";
 import OurStoryWatchOnTv from "../OurStoryWatchOnTv/OurStoryWatchOnTv";
 import classes from "./style.module.css";
 
 export default class OurStory extends Component {
   render(props) {
+    const {language} = this.props;
     return (
       <div className={classes["our-story-container"]}>
         <div className={classes["our-story-header-wrapper"]}>
@@ -24,12 +26,13 @@ export default class OurStory extends Component {
                 </g>
               </svg>
             </span>
-            <Link className={classes["auth-link"]} to={`${window.location.pathname}/login`}>{this.props.language.login}</Link>
+            <Link className={classes["auth-link"]} to={`${window.location.pathname}/login`}>{language.login}</Link>
           </div>
         </div>
         <div className={classes["our-story-cards"]}>
-            <OurStoryHeros language={this.props.language}/>
-            <OurStoryWatchOnTv language={this.props.language}/>
+            <OurStoryHeros language={language}/>
+            <OurStoryWatchOnTv values={language.tv}/>
+            <OurStoryMobile  values={language.mobile}/>
         </div>
       </div>
     );

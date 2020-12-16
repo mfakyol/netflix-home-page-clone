@@ -1,22 +1,19 @@
 import React from "react";
 import classes from "./style.module.css";
-import tv from "../../../../helpers/img/tv.png";
-import videoTv from "../../../../helpers/video/video-tv.m4v";
 
-export default function OurStoryWatchOnTv() {
+export default function OurStoryWatchOnTv(props) {
+  const {h1, h2, image, video} = props.values;
   return (
     <div className={classes["story-card-watch-on-tv"]}>
       <div className={classes["story-card-watch-on-tv-container"]}>
         <div className={classes["card-text"]}>
-          <h1>Televizyonunuzda izleyebilirsiniz.</h1>
-          <h2>
-            Akıllı TV, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
-            oynatıcılar ve daha fazlasında seyredin.
+          <h1>{h1}</h1>
+          <h2>{h2}
           </h2>
         </div>
         <div className={classes["card-image-container"]}>
           <div className={classes["card-animation-container"]}>
-            <img src={tv} alt="" />
+            <img src={require(`../../../../helpers/img/${image}`)} alt="" />
             <div className={classes["card-animation-video-container"]}>
               <video
                 className={classes["video"]}
@@ -25,7 +22,7 @@ export default function OurStoryWatchOnTv() {
                 loop
               >
                 <source
-                  src={videoTv}
+                  src={require(`../../../../helpers/video/${video}`)}
                   type="video/mp4"
                 />
               </video>
