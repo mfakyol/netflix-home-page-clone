@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import OurStoryHeros from "../OurStoryHeros/OurStoryHeros";
+import OurStoryWatchOnTv from "../OurStoryWatchOnTv/OurStoryWatchOnTv";
 import classes from "./style.module.css";
 
 export default class OurStory extends Component {
@@ -28,6 +29,7 @@ export default class OurStory extends Component {
         </div>
         <div className={classes["our-story-cards"]}>
             <OurStoryHeros language={this.props.language}/>
+            <OurStoryWatchOnTv language={this.props.language}/>
         </div>
       </div>
     );
