@@ -2,11 +2,10 @@ import React, { Component } from "react";
 import classes from "./style.module.css";
 
 export default class EmailForm extends Component {
-    constructor(props) {
-        super(props);
-        this.emailRef = React.createRef();
-    }
-
+  constructor(props) {
+    super(props);
+    this.emailRef = React.createRef();
+  }
 
   state = {
     email: "",
@@ -14,7 +13,7 @@ export default class EmailForm extends Component {
   };
 
   componentDidMount() {
-    document.querySelector("#email").addEventListener("focusout", (e) => {
+    this.emailRef.current.addEventListener("focusout", (e) => {
       if (!this.state.email) {
         e.target.nextSibling.style.transform = "translateY(-50%)";
         e.target.nextSibling.style.fontSize = ".9rem";
@@ -23,7 +22,6 @@ export default class EmailForm extends Component {
   }
 
   emailOnChange(e) {
-    console.log(this.state.email);
     this.setState({
       email: e.target.value,
     });
@@ -33,10 +31,12 @@ export default class EmailForm extends Component {
       this.setState({
         err: true,
       });
+      e.target.style.borderBottom = "2px solid #ffa00a";
     } else {
       this.setState({
         err: false,
       });
+      e.target.style.borderBottom = "none";
     }
   }
 
@@ -46,17 +46,22 @@ export default class EmailForm extends Component {
   }
 
   onSubmit(e) {
-      e.preventDefault()
-      console.log("das")
-      if(this.state.email === "") {
-        this.emailRef.current.focus()
-      }
+    e.preventDefault();
+    console.log("das");
+    if (this.state.email === "") {
+      this.emailRef.current.focus();
+    }
   }
 
   render() {
     const { email, err } = this.state;
     return (
-      <form onSubmit={this.onSubmit.bind(this)} className={classes["email-form"]} action="" method="GET">
+      <form
+        onSubmit={this.onSubmit.bind(this)}
+        className={classes["email-form"]}
+        action=""
+        method="GET"
+      >
         <h3 className={classes["email-form-title"]}>
           İzlemeye hazır mısınız? Üyelik oluşturmak veya üyeliğinize erişmek
           için e‑posta adresinizi girin.
@@ -67,7 +72,7 @@ export default class EmailForm extends Component {
               <div className={classes["email-container"]}>
                 <div className={classes["input-area"]}>
                   <input
-                  ref = {this.emailRef}
+                    ref={this.emailRef}
                     onFocus={this.emailOnFocus.bind(this)}
                     value={email}
                     onChange={this.emailOnChange.bind(this)}

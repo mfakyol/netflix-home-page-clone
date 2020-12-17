@@ -103,6 +103,9 @@
   .story-card-background {
     top: -70px;
   }
+  .story-card-heros {
+   padding: 0 0;
+  }
   .our-story-card-text {
     padding: 30px 0;
   }

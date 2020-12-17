@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 import OurStoryHeros from "../OurStoryHeros/OurStoryHeros";
 import OurStoryMobile from "../OurStoryMobile/OurStoryMobile";
 import OurStoryWatchOnTv from "../OurStoryWatchOnTv/OurStoryWatchOnTv";
+import OurStortAll from "../OurStoryAll/OurStoryAll";
 import classes from "./style.module.css";
+import FQA from "../../FQA/FQA";
 
 export default class OurStory extends Component {
   render(props) {
@@ -32,7 +34,9 @@ export default class OurStory extends Component {
         <div className={classes["our-story-cards"]}>
             <OurStoryHeros language={language}/>
             <OurStoryWatchOnTv values={language.tv}/>
-            <OurStoryMobile  values={language.mobile}/>
+            <OurStoryMobile values={language.mobile}/>
+            <OurStortAll values={language.all}/>
+            <FQA fqa={language.fqa}/>
         </div>
       </div>
     );

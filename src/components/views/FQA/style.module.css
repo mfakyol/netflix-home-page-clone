@@ -1,0 +1,50 @@
+.fqa-card {
+  padding: 50px 0;
+  background-color: #000;
+  border-bottom: 8px solid #222;
+}
+
+.fqa-containder {
+  width: 100%;
+}
+.fqa-containder > h1 {
+  text-align: center;
+  font-size: 3.125rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.fqa-list {
+  margin: 1.25rem auto;
+  max-width: 815px;
+}
+
+@media (min-width: 550px) {
+  .fqa-card {
+    padding: 70px 45px !important;
+  }
+}
+@media (min-width: 950px) {
+  .fqa-list {
+    width: 75%;
+    margin: 2em auto;
+  }
+}
+
+@media only screen and (max-width: 549px) {
+  .fqa-containder > h1 {
+    font-size: 1.625rem;
+  }
+
+  .fqa-list {
+    font-size: 1.125rem;
+  }
+}
+
+@media only screen and (max-width: 949px) and (min-width: 550px){
+ .fqa-list {
+  width: 90%;
+  margin: 1.5em auto;
+ }
+}
+

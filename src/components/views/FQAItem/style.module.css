@@ -1,0 +1,57 @@
+.fqa-item {
+  box-sizing: border-box;
+  margin-bottom: 0 auto;
+  margin-bottom: 8px;
+  color: #fff;
+
+}
+.fqa-item > h1 {
+    position: relative;
+    font-size: 1.594rem;
+  box-sizing: border-box;
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  margin-bottom: 1px;
+  width: 100%;
+  font-weight: 400;
+  cursor: pointer;
+  background-color: #303030;
+}
+.fqa-item > h1 > svg {
+    position: absolute; 
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    fill: #fff;
+    width: 26px;
+    height: 26px;
+}
+.fqa-item > h1 > svg.active {
+transform: translateY(-50%) rotate(45deg);
+}
+
+.fqa-text {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #303030;
+  overflow-y: hidden;
+  transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+}
+.fqa-text > span {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  font-size: 1.594rem;
+  padding: 1.2em;
+}
+
+
+@media only screen and (max-width: 949px) {
+  .fqa-item > h1, .fqa-text > span {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 549px) {
+  .fqa-item > h1, .fqa-text > span {
+    font-size: 18px;
+  }
+}

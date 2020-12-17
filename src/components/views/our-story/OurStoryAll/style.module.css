@@ -1,0 +1,125 @@
+.story-card-watch-all {
+    position: relative;
+    border-bottom: 8px solid #222;
+    padding: 50px 5% ;
+    margin-bottom: 0;
+    background: 0 0;
+    color: #fff;
+    background-color: #000;
+  }
+  
+  .story-card-watch-all-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  .card-text {
+    margin: 5% 0;
+    font-size: 1.625rem;
+    font-weight: 400;
+    width: 52%;
+    height: 100%;
+    flex: 0 1 auto;
+    padding: 0 3rem 0 0;
+    z-index: 3;
+  }
+  
+  .card-text > h1 {
+    font-size: 3.125rem;
+    margin-bottom: 0.5rem;
+  }
+  .card-text > h2 {
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin: 0.75em 0 0.25em;
+  }
+  
+  .card-image-container {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex: 0 1 auto;
+    box-sizing: border-box;
+  
+  }
+  
+  .card-animation-container {
+    margin: -5% -10% 0 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .card-animation-container > img {
+    position: relative;
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+  }
+  .card-animation-video-container {
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 47%;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .card-animation-video-container > video {
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media only screen and (min-width: 550px) {
+    .story-card-watch-all {
+      padding: 70px 45px;
+    }
+  }
+  
+  @media only screen and (max-width: 549px) {
+    .card-text {
+      font-size: 1.125rem;
+    }
+    .card-text > h1 {
+      font-size: 1.625rem !important;
+    }
+    .card-text > h2 {
+      font-size: 1.125rem !important;
+    }
+  }
+  
+  @media only screen and (max-width: 949px) {
+    .story-card-watch-all-container {
+      flex-direction: column;
+    }
+    
+  
+    .card-text {
+      margin: 0;
+      width: 100%;
+      text-align: center;
+      padding: 0;
+    }
+  
+    .card-text > h1 {
+      font-size: 2.5rem;
+    }
+  
+    .card-text > h2 {
+      font-size: 1.25rem;
+    }
+  
+    .card-image-container {
+      width: 100%;
+      max-width: 600px;
+      margin-top: 2.5rem;
+    }
+  
+    .card-animation-container {
+      margin: -10% 0 0 0 !important;
+    }
+  }
+  
