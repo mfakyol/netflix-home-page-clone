@@ -25,7 +25,9 @@ export default class FQAItem extends Component {
           className={classes["fqa-text"]}
           style={{ maxHeight: isActive ? "2000px" : "0px" }}
         >
-          <span>{text}</span>
+          <span             dangerouslySetInnerHTML={{
+              __html:text,
+            }}></span>
         </div>
       </div>
     );

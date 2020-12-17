@@ -1,5 +1,16 @@
 {
     "login": "Oturum Aç",
+    "heros": {
+        "title": "Sınırsız film, dizi ve çok daha fazlası.",
+        "text": "İstediğiniz yerde izleyin. İstediğiniz zaman iptal edin.",
+        "bg": "tr-bg.jpg"
+    },
+    "email": {
+        "title": "İzlemeye hazır mısınız? Üyelik oluşturmak veya üyeliğinize erişmek için e‑posta adresinizi girin.",
+        "placeHolder": "E-posta adresi",
+        "button": "İzlemeye Başlayın",
+        "err": "Lütfen e‑posta adresini girin"
+    },
     "tv": {
         "h1": "Televizyonunuzda izleyebilirsiniz.",
         "h2": "Akıllı TV, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray oynatıcılar ve daha fazlasında seyredin.",
@@ -19,14 +30,22 @@
         "image": "all.png",
         "video": "video-all.m4v"  
     },
-    "fqa": [
-        {"title":"Netflix nedir?", "text": "Netflix; internet bağlantılı binlerce cihazda ödüllü diziler, filmler, animeler, belgeseller ve daha fazlasını içeren geniş bir arşiv sunan bir yayın hizmetidir. <br><br> Tek bir reklam olmadan, istediğiniz kadar, istediğiniz zaman izleyebilirsiniz - hepsi aylık düşük bir ücret karşılığında. Her zaman keşfedilecek yeni bir şeyler var, üstelik her hafta yeni diziler ve filmler ekleniyor!"},
-        {"title":"Netflix'in maliyeti nedir?", "text": "Netflix'i akıllı telefonunuz, tabletiniz, Akıllı TV'niz, dizüstü bilgisayarınız veya yayın cihazınızda sabit bir aylık ücretle izleyin. Aylık plan ücretleri 17,99 TL ile 41,99 TL arasında değişmektedir. Ekstra maliyet yok, sözleşme yok."},
-        {"title":"Nerede izleyebilirim?", "text": "İstediğiniz yerde, istediğiniz zaman, sınırsız sayıda cihazda izleyin. Bilgisayarınızda netflix.com adresinden veya akıllı TV'ler, akıllı telefonlar, tabletler, medya oynatıcılar ve oyun konsolları dahil Netflix uygulamasını sunan, internet bağlantılı herhangi bir cihazda anında izlemek için Netflix hesabınızla oturum açın.<br><br> Favori içeriklerinizi iOS, Android veya Windows 10 uygulamasıyla da indirebilirsiniz. Seyahatteyken ve internet bağlantısı olmadan izlemek için indirilenleri kullanın. Netflix'i her yere beraberinizde götürün."},
-        {"title":"Nasıl iptal ederim?", "text": "Netflix esnektir. Sinir bozucu hiçbir sözleşme ve taahhüt yoktur. Hesabınızı çevrimiçi olarak iki tıklamayla kolayca iptal edebilirsiniz. İptal ücreti yoktur - hesabınızı istediğiniz zaman başlatın veya durdurun."},
-        {"title":"Netflix'te ne izleyebilirim?", "text": "Netflix, uzun metrajlı filmler, belgeseller, diziler ve programlar, anime, ödüllü Netflix orijinal içerikleri ve daha fazlasından oluşan kapsamlı bir kütüphaneye sahiptir. İstediğiniz her zaman, istediğiniz kadar çok şey izleyin."}
-    ],
+    "fqa": {
+        "title": "Sıkça Sorulan Sorular",
+        "fqa": [
+            {"title":"Netflix nedir?", "text": "Netflix; internet bağlantılı binlerce cihazda ödüllü diziler, filmler, animeler, belgeseller ve daha fazlasını içeren geniş bir arşiv sunan bir yayın hizmetidir. <br><br> Tek bir reklam olmadan, istediğiniz kadar, istediğiniz zaman izleyebilirsiniz - hepsi aylık düşük bir ücret karşılığında. Her zaman keşfedilecek yeni bir şeyler var, üstelik her hafta yeni diziler ve filmler ekleniyor!"},
+            {"title":"Netflix'in maliyeti nedir?", "text": "Netflix'i akıllı telefonunuz, tabletiniz, Akıllı TV'niz, dizüstü bilgisayarınız veya yayın cihazınızda sabit bir aylık ücretle izleyin. Aylık plan ücretleri 17,99 TL ile 41,99 TL arasında değişmektedir. Ekstra maliyet yok, sözleşme yok."},
+            {"title":"Nerede izleyebilirim?", "text": "İstediğiniz yerde, istediğiniz zaman, sınırsız sayıda cihazda izleyin. Bilgisayarınızda netflix.com adresinden veya akıllı TV'ler, akıllı telefonlar, tabletler, medya oynatıcılar ve oyun konsolları dahil Netflix uygulamasını sunan, internet bağlantılı herhangi bir cihazda anında izlemek için Netflix hesabınızla oturum açın.<br><br> Favori içeriklerinizi iOS, Android veya Windows 10 uygulamasıyla da indirebilirsiniz. Seyahatteyken ve internet bağlantısı olmadan izlemek için indirilenleri kullanın. Netflix'i her yere beraberinizde götürün."},
+            {"title":"Nasıl iptal ederim?", "text": "Netflix esnektir. Sinir bozucu hiçbir sözleşme ve taahhüt yoktur. Hesabınızı çevrimiçi olarak iki tıklamayla kolayca iptal edebilirsiniz. İptal ücreti yoktur - hesabınızı istediğiniz zaman başlatın veya durdurun."},
+            {"title":"Netflix'te ne izleyebilirim?", "text": "Netflix, uzun metrajlı filmler, belgeseller, diziler ve programlar, anime, ödüllü Netflix orijinal içerikleri ve daha fazlasından oluşan kapsamlı bir kütüphaneye sahiptir. İstediğiniz her zaman, istediğiniz kadar çok şey izleyin."}
+        ]
+    },
     "footer": {
-        
+        "title": "Sorularınız mı var? <a className={classes['footer-link']} href='tel:XXXX-XXX-XXX'>XXXX-XXX-XXX</a>&nbsp;numaralı telefonu arayın",
+        "links": [
+            "SSS", "Yardım Merkezi", "Hesap", "Medya Merkesi", "Yatırımcı İlişkiler", "İş İmkanları", "Hediye Kartı Kullan", "İzleme Yolları", "Kullanım Koşulları", "Gizlilik", "Çerez Tercihleri", "Kurumsal Bilgiler", "Bize Ulaşın", "Hız Testi", "Yasal Hükümler", "Netflix Orjinal İçerikler"
+        ],
+        "lang": "tr",
+        "country": "Türkiye"
     }
 }

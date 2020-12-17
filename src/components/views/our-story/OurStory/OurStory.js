@@ -6,6 +6,7 @@ import OurStoryWatchOnTv from "../OurStoryWatchOnTv/OurStoryWatchOnTv";
 import OurStortAll from "../OurStoryAll/OurStoryAll";
 import classes from "./style.module.css";
 import FQA from "../../FQA/FQA";
+import Footer from "../../Footer/Footer";
 
 export default class OurStory extends Component {
   render(props) {
@@ -32,11 +33,12 @@ export default class OurStory extends Component {
           </div>
         </div>
         <div className={classes["our-story-cards"]}>
-            <OurStoryHeros language={language}/>
+            <OurStoryHeros heros={language.heros} email={language.email}/>
             <OurStoryWatchOnTv values={language.tv}/>
             <OurStoryMobile values={language.mobile}/>
             <OurStortAll values={language.all}/>
-            <FQA fqa={language.fqa}/>
+            <FQA fqa={language.fqa}  email={language.email}/>
+            <Footer values={language.footer}/>
         </div>
       </div>
     );

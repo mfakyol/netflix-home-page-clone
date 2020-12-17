@@ -55,6 +55,7 @@ export default class EmailForm extends Component {
 
   render() {
     const { email, err } = this.state;
+    const emailData  = this.props.email;
     return (
       <form
         onSubmit={this.onSubmit.bind(this)}
@@ -63,8 +64,7 @@ export default class EmailForm extends Component {
         method="GET"
       >
         <h3 className={classes["email-form-title"]}>
-          İzlemeye hazır mısınız? Üyelik oluşturmak veya üyeliğinize erişmek
-          için e‑posta adresinizi girin.
+{emailData.title}
         </h3>
         <div className={classes["email-wrapper"]}>
           <ul>
@@ -78,19 +78,18 @@ export default class EmailForm extends Component {
                     onChange={this.emailOnChange.bind(this)}
                     type="email"
                     name="email"
-                    id="email"
                     tabIndex="0"
                     autoComplete="email"
                     maxLength="50"
                     minLength="5"
                   />
-                  <span className={classes["input-label"]}>E-posta adresi</span>
+                  <span className={classes["input-label"]}>{emailData.placeHolder}</span>
                 </div>
                 <div
                   style={{ opacity: err ? "1" : "0" }}
                   className={classes["input-error"]}
                 >
-                  Lütfen e‑posta adresini girin
+{emailData.err}
                 </div>
               </div>
             </li>
@@ -98,7 +97,7 @@ export default class EmailForm extends Component {
           <div className={classes["form-button-wrapper"]}>
             <button type="submit" className={classes["form-button"]}>
               <span className={classes["form-button-text"]}>
-                İzlemeye Başlayın
+              {emailData.button}
               </span>
               <span className={classes["form-button-icon"]}>
                 <svg viewBox="0 0 6 12">
