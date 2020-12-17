@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import OurStoryHeros from "../OurStoryHeros/OurStoryHeros";
 import OurStoryMobile from "../OurStoryMobile/OurStoryMobile";
 import OurStoryWatchOnTv from "../OurStoryWatchOnTv/OurStoryWatchOnTv";
