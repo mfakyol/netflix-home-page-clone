@@ -5,7 +5,7 @@
 #### Tasarlayan: Muhammed Fatih AKYOL Öğretim Üyesi: Dr. Fehim KÖYLÜ
 
 ## Projeyi çalıştırmak için klasörün ana dizinine gelip sırasıyla aşagıdaki komutların çalıştırılması gerekmektedir.
-#### npm i   
+#### npm install  
 #### npm start 
 
 ## Diğer bir çalıştırma şekli iste bir web servis sağlayıcıya build klasörünü yükleyip içindeki index.html dosyasını çagırmaktır. index.html dosyasını normal çalıştırdığınızda karşınıza boş html sayfası çıkacaktır. Ayrıca projenin demosu yukardaki linkte verilmiştir görüntülemek için linki kullanabilirsinz.
@@ -46,5 +46,5 @@
 2. https://www.netlify.com (Ödevin demosu için.)
 
 # Kullanılan Yöntemler
-1. Responsive tasarım
+1. Responsive Tasarım
 
