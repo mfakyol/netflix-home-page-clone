@@ -5,10 +5,10 @@
 #### Tasarlayan: Muhammed Fatih AKYOL Öğretim Üyesi: Dr. Fehim KÖYLÜ
 
 ## Projeyi çalıştırmak için klasörün ana dizinine gelip sırasıyla aşagıdaki komutların çalıştırılması gerekmektedir.
-npm i
-npm start 
+#### npm i   
+#### npm start 
 
-## diğer bir çalıştırma şekli iste bir web servis sağlayıcıya build klasörünü yükleyip içindeki index.html dosyasını çagırmaktır. index.html dosyasını normal çalıştırdığınızda karşınıza boş html sayfası çıkacaktır. Ayrıca projenin demosu yukardaki linkte verilmiştir görüntülemek için linki kullanabilirsinz.
+## Diğer bir çalıştırma şekli iste bir web servis sağlayıcıya build klasörünü yükleyip içindeki index.html dosyasını çagırmaktır. index.html dosyasını normal çalıştırdığınızda karşınıza boş html sayfası çıkacaktır. Ayrıca projenin demosu yukardaki linkte verilmiştir görüntülemek için linki kullanabilirsinz.
 
 #### not1: https://www.netflix.com/ font-family olarak public olmayan netflix-sans adlı fontu kullanıyor. Bu font public olmadığı için bu fonta benzeyen open-sans fontu kullanılmıştır. Buna rağmen font farklılıklarından dolayı asıl site ve klon site arasında farklılıklar bulunmaktadır.
 
