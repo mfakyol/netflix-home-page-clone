@@ -3,7 +3,7 @@
 ## BS435 Web Programlama 1 Dersi Vize Ödevi
 ### Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü
 #### Tasarlayan: Muhammed Fatih AKYOL Öğretim Üyesi: Dr. Fehim KÖYLÜ
-
+## Proje aynı repoda bulunun https://github.com/mfakyol/react-redux-starter-kit adresindeki react projelerine başlarken kulladığım projenin üzerine kurulmuştur. Bu yüzden commit tarihleri ödevin verildiği tarihlerden önceki tarihlerde gözükebilir.
 ## Projeyi çalıştırmak için klasörün ana dizinine gelip sırasıyla aşağıdaki komutların çalıştırılması gerekmektedir.
 #### npm install  
 #### npm start 
