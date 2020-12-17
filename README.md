@@ -4,17 +4,17 @@
 ### Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü
 #### Tasarlayan: Muhammed Fatih AKYOL Öğretim Üyesi: Dr. Fehim KÖYLÜ
 
-## Projeyi çalıştırmak için klasörün ana dizinine gelip sırasıyla aşagıdaki komutların çalıştırılması gerekmektedir.
+## Projeyi çalıştırmak için klasörün ana dizinine gelip sırasıyla aşağıdaki komutların çalıştırılması gerekmektedir.
 #### npm install  
 #### npm start 
 
-## Diğer bir çalıştırma şekli iste bir web servis sağlayıcıya build klasörünü yükleyip içindeki index.html dosyasını çagırmaktır. index.html dosyasını normal çalıştırdığınızda karşınıza boş html sayfası çıkacaktır. Ayrıca projenin demosu yukardaki linkte verilmiştir görüntülemek için linki kullanabilirsinz.
+## Diğer bir çalıştırma şekli iste bir web servis sağlayıcıya build klasörünü yükleyip içindeki index.html dosyasını çağırmaktır. index.html dosyasını normal çalıştırdığınızda karşınıza boş html sayfası çıkacaktır. Ayrıca projenin demosu yukardaki linkte verilmiştir görüntülemek için linki kullanabilirsinz.
 
 #### not1: https://www.netflix.com/ font-family olarak public olmayan netflix-sans adlı fontu kullanıyor. Bu font public olmadığı için bu fonta benzeyen open-sans fontu kullanılmıştır. Buna rağmen font farklılıklarından dolayı asıl site ve klon site arasında farklılıklar bulunmaktadır.
 
 #### not2: Sitede 2 farklı dil desteği bulunmaktadır. Farklı dilleri adresin sonuna /tr veya /tr-en ekleyerek ya da sayfanın en altında bulunan dil seçim kutusu yardımıyla görüntülüyebilirsiniz. 
 
-#### not3: Site tamamen SPA(Single Page Application) olarak tasarlanmıştır yani sayfalar arasında geçişti sayfa yeniden yüklenmiyordur buna diller arasındaki geçişlerde dahil. Ama Asıl sitede diller arasındaki geçiş sırasında sayfa yeniden yükleniyor. Klon projede buna ayak uydurması için Proje SPA olduğu halde Sayfa yeniden yüklenerek Asılına benzer oalrak tasarlanmıştır.
+#### not3: Site tamamen SPA(Single Page Application) olarak tasarlanmıştır yani sayfalar arasında geçişti sayfa yeniden yüklenmiyordur buna diller arasındaki geçişlerde dahil. Ama Asıl sitede diller arasındaki geçiş sırasında sayfa yeniden yükleniyor. Klon projede buna ayak uydurması için Proje SPA olduğu halde Sayfa yeniden yüklenerek Asılına benzer olarak tasarlanmıştır.
 
 #### not4: Asıl sayfa ile klon arasındaki arkaplan resimleri arasında farklılık gözlenebilir. Asıl sayfa belli aralıklarla arka planını güncellemektedir.
 
