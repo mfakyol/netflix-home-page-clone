@@ -38,5 +38,5 @@
 2. https://www.netlify.com (Ödevin demosu için.)
 
 # Kullanılan Yöntemler
-1. Responsive design
+1. Responsive tasarım
 
