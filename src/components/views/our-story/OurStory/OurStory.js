@@ -29,7 +29,7 @@ export default class OurStory extends Component {
                 </g>
               </svg>
             </span>
-            <Link className={classes["auth-link"]} to={`${window.location.pathname}/login`}>{language.login}</Link>
+            <a className={classes["auth-link"]} href="#login">{language.login}</a>
           </div>
         </div>
         <div className={classes["our-story-cards"]}>
