@@ -31,6 +31,7 @@
 3. Javascript
 4. React
 4. React Router Dom
+5. React Scripts (Scoped css için)
 
 
 # Kullanılan Yazılımlar
