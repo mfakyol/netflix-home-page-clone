@@ -5,12 +5,14 @@ import tr from "../languages/tr.json";
 import tr_en from "../languages/tr-en.json";
 import Home from "../components/views/Home/Home";
 import RedirectComponent from "../components/views/RedirectComponent/RedirectComponent";
+import Cv from "../components/views/Cv/Cv";
 
 export default () => {
   return (
     <Router>
       <Switch>
         <Route path="/" exact component={RedirectComponent}/>
+        <Route path="/cv" exact component={Cv}/>
 
         <Route path="/tr/:path?">
           <Switch>

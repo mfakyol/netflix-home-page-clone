@@ -1,0 +1,79 @@
+.cv-page {
+  background-color: #f0f0f0;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 1270px;
+}
+
+.cv-container {
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+  max-width: 700px;
+  background-color: #fff;
+}
+
+.left-vertical-line {
+  float: left;
+  background-color: #e74c3c;
+  width: 55px;
+  height: 100%;
+}
+
+.cv-body {
+  float: left;
+  width: calc(100% - 55px);
+  height: 100%;
+}
+
+.cv-body > h1 {
+  padding-top: 30px;
+  padding-left: 30px;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.cv-section > h2 {
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 30px;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.cv-section > hr {
+  border-color: #3498db;
+  background-color: #3498db;
+  margin: 15px 25px;
+}
+
+.cv-section > .feature {
+  width: 100%;
+  padding: 2px 30px;
+}
+
+.cv-section > .feature > .title {
+  display: inline-block;
+  width: 200px;
+  height: 100%;
+  text-align: start;
+}
+
+.cv-section > .feature > .text {
+  display: inline-block;
+  width: calc(100% - 200px);
+}
+.cv-section > .feature > .text-full {
+  display: inline-block;
+  width: 100%;
+}
+
+.cv-section > .feature > .text > a {
+  color: #2980b9;
+  font-size: 15px;
+  text-decoration: none;
+}
+.cv-section > .feature > .text > a:hover {
+  text-decoration: underline;
+}
