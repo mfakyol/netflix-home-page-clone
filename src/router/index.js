@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import tr from "../languages/tr.json";
 import tr_en from "../languages/tr-en.json";
-import Home from "../components/views/Home/Home";
+import HomePage from "../components/views/HomePage/Home";
 import RedirectComponent from "../components/views/RedirectComponent/RedirectComponent";
 import Cv from "../components/views/Cv/Cv";
 
@@ -19,7 +19,7 @@ export default () => {
             <Route
               path="/tr"
               exact
-              render={(props) => <Home {...props} language={tr} />}
+              render={(props) => <HomePage {...props} language={tr} />}
             />
           </Switch>
         </Route>
@@ -28,7 +28,7 @@ export default () => {
             <Route
               path="/tr-en"
               exact
-              render={(props) => <Home {...props} language={tr_en} />}
+              render={(props) => <HomePage {...props} language={tr_en} />}
             />
           </Switch>
         </Route>
