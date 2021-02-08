@@ -1,7 +1,9 @@
 
 .cv-links {
     margin-top: 20px;
-    display: inline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     position: absolute;
     top: 0;
     left: 50%;
@@ -12,6 +14,7 @@
 }
 
 .cv-links > a {
+    margin-bottom: 10px;
     text-align: center;
     display: inline-block;
     width: 100px;
